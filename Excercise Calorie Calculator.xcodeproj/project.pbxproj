@@ -9,21 +9,25 @@
 /* Begin PBXBuildFile section */
 		33026FB926115AA3000B182B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33026FB826115AA3000B182B /* AppDelegate.swift */; };
 		33026FBB26115AA3000B182B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33026FBA26115AA3000B182B /* SceneDelegate.swift */; };
-		33026FBD26115AA3000B182B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33026FBC26115AA3000B182B /* ViewController.swift */; };
 		33026FC026115AA3000B182B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33026FBE26115AA3000B182B /* Main.storyboard */; };
 		33026FC226115AA4000B182B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33026FC126115AA4000B182B /* Assets.xcassets */; };
 		33026FC526115AA4000B182B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33026FC326115AA4000B182B /* LaunchScreen.storyboard */; };
+		33026FD0261160C5000B182B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33026FCF261160C5000B182B /* ThirdViewController.swift */; };
+		33026FD32611637C000B182B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33026FD22611637C000B182B /* FirstViewController.swift */; };
+		33026FD72611638C000B182B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33026FD62611638C000B182B /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		33026FB526115AA3000B182B /* Excercise Calorie Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Excercise Calorie Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		33026FB826115AA3000B182B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		33026FBA26115AA3000B182B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		33026FBC26115AA3000B182B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		33026FBF26115AA3000B182B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		33026FC126115AA4000B182B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		33026FC426115AA4000B182B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		33026FC626115AA4000B182B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33026FCF261160C5000B182B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		33026FD22611637C000B182B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		33026FD62611638C000B182B /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +62,13 @@
 			children = (
 				33026FB826115AA3000B182B /* AppDelegate.swift */,
 				33026FBA26115AA3000B182B /* SceneDelegate.swift */,
-				33026FBC26115AA3000B182B /* ViewController.swift */,
 				33026FBE26115AA3000B182B /* Main.storyboard */,
 				33026FC126115AA4000B182B /* Assets.xcassets */,
 				33026FC326115AA4000B182B /* LaunchScreen.storyboard */,
 				33026FC626115AA4000B182B /* Info.plist */,
+				33026FD22611637C000B182B /* FirstViewController.swift */,
+				33026FD62611638C000B182B /* SecondViewController.swift */,
+				33026FCF261160C5000B182B /* ThirdViewController.swift */,
 			);
 			path = "Excercise Calorie Calculator";
 			sourceTree = "<group>";
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				33026FBD26115AA3000B182B /* ViewController.swift in Sources */,
 				33026FB926115AA3000B182B /* AppDelegate.swift in Sources */,
+				33026FD0261160C5000B182B /* ThirdViewController.swift in Sources */,
 				33026FBB26115AA3000B182B /* SceneDelegate.swift in Sources */,
+				33026FD72611638C000B182B /* SecondViewController.swift in Sources */,
+				33026FD32611637C000B182B /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
